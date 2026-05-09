@@ -1,46 +1,39 @@
-#wrapper { 
-  margin: 0px auto; 
-  width: 800px; 
-  background-color: #eeeeee; 
-  padding: 20px; 
-  overflow: auto; 
-  // necessary for "clearing" the floats 
-  // contained within 
-} 
- 
-img { 
-    padding: 20px; 
-    width: 320px; 
-    margin: 10px; 
-    float: left; 
-} 
- 
-h1 { 
-    font-family: Verdana, Geneva, sans-serif; 
-    margin-left: 22px; 
-} 
-    html {
-      font-family: Georgia, Times, serif;
-      font-size: 22px;
-      line-height: 32px;
+.wrapper {
+  margin: 0 auto;
+  width: 800px;
+  background-color: #eeeeee;
+  padding: 20px;
 }
-    a {
-      color: orange;
+
+html {
+  font-family: Georgia, Times, serif;
+  font-size: 22px;
+  line-height: 32px;
 }
-    a:hover {
-      color: red;
+
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
 }
-    p {
-        background-color: #dddddd;
-        padding: 20px;
-        width: 320px;
-        margin: 10px;
-        float: left;
+
+.project {
+  background-color: #dddddd;
+  padding: 20px;
+  margin-top: 20px;
 }
-    .project {
-    background-color: #dddddd;
-    padding: 20px;
-    margin: 20px;
-    width: 320px;
-    float: left;
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project p {
+  margin-top: 15px;
+}
+
+a {
+  color: orange;
+}
+
+a:hover {
+  color: red;
 }
