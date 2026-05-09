@@ -1,0 +1,1 @@
+this reposity ois used for maintaining the source code and publishing web mappiing assignments for GEOG 3540: Introduction to Geographic Visualization, Department of Geographical and Sutainability Science at University of Iowa
