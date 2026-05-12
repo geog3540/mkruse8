@@ -97,22 +97,42 @@
     <div class="project">
       <h1>Questions</h1>
       <p> 1. What is a client and what is a server? </p>
-      <p> A client is the computer or web browser trying to access your server. A server is the node located on the internet that containes a web page which has code in HTML to display and distribute
-          content over the internet.</p>
+      <p>   A client is the computer or web browser trying to access your server. A server is the node located on the internet that containes a web page which has code in HTML to display and distribute
+            content over the internet.</p>
       <p> 2. How does a server know which file to read initially and why?</p>
-      <p> Web browers are typically configured to look for a default file (index.html)
+      <p>   Web browers are typically configured to look for a default file (index.html). It checks for a file with this name, and when someone tries to access the site, it opens that file automatically.</p>
       <p> 3. What does a code repository do and why is it important?</p>
+      <p>   The repository is where all of the files used to create and that are within the webpage are stored. That's where the index.html is, as well as any images or files that are referenced on the
+            site. This repository is important because it contains all version history, so you can go back and see what changes were made and go back to a previous version if necessary. It also
+            hosts your website, keeps you data organized, and keeps a backup of your progress so you can easily switch computers and still be able to edit your site.</p>
       <p> 4. Why do we create external CSS files while we can use styling inside of an html?</p>
+      <p>   The external use of a style sheet just increases effeciency for your code. Instead of having to retype all of the styling information for things like color and text size, you can easily
+            just reference the style sheet that has this information stored, and it makes your code a lot shorter and ensures the same formatting across all parts of the web browser.</p>
       <p> 5. What does the “div tag” do, and how is it useful?</p>
+      <p>   The div tag creates a box or section on your site that creates a visual seperation between different information. For example, all of my projects are on different div tags so that they
+            are cleanly seperated and look more organized within each section.</p>
       <p> 6. To describe styling in an html file, which tag do you need to use?</p>
+      <p>   style</p>
       <p> 7. How do you create a link in the index.html which points to a file inside the same folder as the index.html?</p>
+      <p>   First, make sure whatever file you want to link is in the same folder as the index.html. Different file types need different tags; for example, a .png uses an "img" tag and a .pdf uses an "a"
+            tag. Then, write "src=" for .png or "href=" for .pdf. Then copy and paste the exact name of the file in after the "=" with no spaces, and this will create a link or place an image on your website.</p>
       <p> 8. What is a template and how is it useful for web site building?</p>
+      <p>   A template is just a base of a website that you can customize and change so that you don't have to write everything from scratch.</p>
       <p> 9. What does “pull” and “push” mean in using GitHub?</p>
+      <p>   When you make changes on your desktop github app (or on applications on your computer like pulsar or your files that are connected to your repository), you need to push those to the online
+            version of github so that the it sincs with the updates you made. When you make changes on the online version, you need to pull those changes onto your desktop application so that the updates
+            made online sinc with your repository on the app and then update the files in the repository.</p>
       <p> 10. Why do we need to run a local web server? How do we run a local server using Python?</p>
+      <p>   We run a local server so we can test our website on our computer that fuctions like a real web page. Certain features only work on a server. You can use Python Command Prompt and type cd
+            followed by the location of the files used for your website. There are several other lines of code outlined in the project instructions that are needed to open a website:
+            cd /document/mywebsite;
+            python -m SimpleHTTPServer;
+            Serving HTTP on 0.0.0.0 port 8000 ...
 
     </div>
 
   </div>
 
-</body>
+</body>;</p>
+</div>
 </html>
